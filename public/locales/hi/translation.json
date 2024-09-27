@@ -1,0 +1,12 @@
+{
+  "appName": "रास्ते",
+  "walkabilityRating": "चलने की रेटिंग",
+  "busynessIndex": "व्यस्तता सूचकांक",
+  "addLandmark": "लैंडमार्क जोड़ें",
+  "comfortableTrail": "मार्ग",
+  "streetName": "सड़क का नाम",
+  "submit": "जमा करें",
+  "findRoute": "मार्ग खोजें",
+  "startLocation": "प्रारंभिक स्थान",
+  "endLocation": "अंतिम स्थान"
+}

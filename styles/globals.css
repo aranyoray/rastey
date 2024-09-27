@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #00796B; /* A deeper teal for better contrast */
+  --secondary-color: #FFB74D; /* Softer orange for better contrast */
+  --background-color: #F9F9F9; /* Slightly darker background for readability */
+  --text-color: #1C1C1C; /* Darker text for improved contrast */
+  --accent-color: #0288D1; /* Slightly darker blue for better contrast */
+  --error-color: #E53935; /* Slightly darker red */
+  --success-color: #7CB342; /* Darker green for visibility */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Arial for better readability across devices */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.8; /* Increased line height for better readability */
+  font-size: 18px; /* Slightly larger default font size */
+}
+
+.container {
+  max-width: 1100px; /* Reduced width for easier readability */
+  margin: 0 auto;
+  padding: 10px 20px; /* Added top and bottom padding for better spacing */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+p, label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input, button, select, textarea {
+  font-size: 18px; /* Increased font size for forms */
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px; /* More rounded corners for a modern look */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 18px; /* Larger button text */
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.85;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px; /* Softer edges for better accessibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  --background-color: #2E2E2E;
+  --text-color: #F9F9F9;
+}
+
+.dark-mode .btn-primary {
+  background-color: var(--accent-color);
+}
+
+.dark-mode .card {
+  background-color: #3B3B3B;
+  color: var(--text-color);
+}
+
+/* Accessible styles for color blindness */
+a {
+  text-decoration: underline; /* Underline links for better distinction */
+  color: var(--accent-color);
+}
+
+a:focus,
+button:focus {
+  outline: 2px solid var(--accent-color); /* Stronger focus outline for keyboard users */
+}
+
+h1, h2 {
+  font-size: 26px; /* Larger headers */
+}
+
+h3, h4, h5, h6 {
+  font-size: 22px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 32px; /* Larger for tablets and above */
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}

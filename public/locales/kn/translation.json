@@ -1,0 +1,12 @@
+{
+  "appName": "ರಸ್ತೆ",
+  "walkabilityRating": "ನಡಿಗೆ ರೇಟಿಂಗ್",
+  "busynessIndex": "ವ್ಯಸ್ತತೆ ಸೂಚ್ಯಂಕ",
+  "addLandmark": "ಲ್ಯಾಂಡ್‌ಮಾರ್ಕ್ ಸೇರಿಸಿ",
+  "comfortableTrail": "ಮಾರ್ಗ",
+  "streetName": "ರಸ್ತೆಯ ಹೆಸರು",
+  "submit": "ಸಲ್ಲಿಸು",
+  "findRoute": "ಮಾರ್ಗ ಹುಡುಕಿ",
+  "startLocation": "ಪ್ರಾರಂಭ ಸ್ಥಳ",
+  "endLocation": "ಅಂತಿಮ ಸ್ಥಳ"
+}

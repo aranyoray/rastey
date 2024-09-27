@@ -1,0 +1,12 @@
+{
+  "appName": "Rastey",
+  "walkabilityRating": "Walkability Rating",
+  "busynessIndex": "Busyness Index",
+  "addLandmark": "Add Landmark",
+  "comfortableTrail": "Comfortable Trail",
+  "streetName": "Street Name",
+  "submit": "Submit",
+  "findRoute": "Find Route",
+  "startLocation": "Start Location",
+  "endLocation": "End Location"
+}

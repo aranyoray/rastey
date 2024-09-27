@@ -1,0 +1,34 @@
+.LandmarkAdder {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.LandmarkAdder label {
+  font-size: 18px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.LandmarkAdder input,
+.LandmarkAdder select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.LandmarkAdder button {
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.LandmarkAdder button:hover {
+  background-color: var(--accent-color);
+}

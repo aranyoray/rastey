@@ -1,0 +1,103 @@
+/* General container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Main content layout */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Map section and controls */
+.mapSection {
+  margin-bottom: 30px;
+}
+
+.mapControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Sections for feature components */
+.section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+.button.active {
+  background-color: var(--secondary-color);
+}
+
+/* Home page specific styling */
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.Home h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.Home p {
+  font-size: 18px;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+.Home button {
+  padding: 12px 24px;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.Home button:hover {
+  opacity: 0.8;
+}

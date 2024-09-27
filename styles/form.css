@@ -1,0 +1,29 @@
+/* form.css */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 4px var(--accent-color);
+  }

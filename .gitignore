@@ -1,0 +1,8 @@
+node_modules
+rastey-env/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib
+rastey-env/lib/python3.12/site-packages/tensorflow/compiler/mlir/stablehlo/stablehlo_extension.so
+rastey-env/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib
+rastey-env/lib/python3.12/site-packages/tensorflow/compiler/mlir/stablehlo/stablehlo_extension.so
+rastey-env/lib/python3.12/site-packages/clang/native/libclang.dylib
+rastey-env/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib
+rastey-env/lib/python3.12/site-packages/tensorflow/compiler/mlir/stablehlo/stablehlo_extension.so
